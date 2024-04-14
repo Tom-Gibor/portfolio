@@ -14,6 +14,7 @@ header{
     
 }
 
+
 .short {
     width: 30%;
     color: #A6A6A6;
@@ -44,4 +45,102 @@ header{
 .about_me {
     font-size: 20px;
 
+}
+
+#my_works img {
+    width: 10%;
+}
+
+
+#experience img {
+    width: 100%;
+}
+
+#personal img {
+    width: 15%;
+}
+
+#personal2 img {
+    width: 18%;
+}
+
+#beginning img {
+    width: 25%;
+}
+
+#problem_state img {
+    width: 40%;
+}
+
+#design_proc img {
+    width: 45%;
+}
+
+#comp_analysis img {
+    width: 5%;
+}
+
+#affinity_personas img {
+    width: 50%;
+}
+
+#key_finsings img {
+    width: 4%;
+}
+
+#personas img {
+    width: 50%;
+}
+
+#journey_map img {
+    width: 50%;
+}
+
+#user_flow img {
+    width: 50%;
+}
+
+#card_sort img {
+    width: 45%;
+}
+
+
+#info_arch img {
+    width: 45%;
+}
+
+#lofi_proto img {
+    width: 45%;
+}
+
+#work_proto img {
+    width: 45%;
+}
+
+#test_affinity img {
+    width: 45%;
+}
+
+#design_evo  img {
+    width: 45%;
+}
+
+#prototype img {
+    width: 10%;
+}
+
+#design_system img {
+    width: 32%;
+}
+
+#test_obj img {
+    width: 4%;
+}
+
+#return_to_top img {
+    width: 5%;
+}
+
+#contact img {
+    width: 3%;
 }
