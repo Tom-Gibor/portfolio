@@ -1,9 +1,86 @@
+
+
+.libre-franklin {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+body {
+    font-family: "Libre Baskerville", serif;
+
+}
+
+img{
+    width: 100%;
+}
+
+a {
+    color: #0c20a0;
+    text-decoration: none; /* No underlining */
+  }
+
+a:visited { /* visited link */
+    color: #860d58;
+}
+
+a:hover {
+    color: #000070;
+    text-decoration: underline;
+}
+
+
+a:active { /* selected link */
+    color: #ac0000;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.4;
+}
+ 
 h1{
-    font-size: 30px;
+    font-size: 2.50em;
     font-weight: 700;
     color: black;
+}
 
+h2 {
+  font-size: 2.15em;
+  font-weight: 700;
+}
 
+h3 {
+    font-size: 1.45em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.15em;
+  font-weight: 400;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
 }
 
 header{
@@ -11,7 +88,34 @@ header{
     height: 60px;
     display: block;
     background-color: black;
-    
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none; /* No underlining */
+}
+
+a:visited { /* visited link */
+    color: #ffffff;
+}
+
+a:hover {
+    color: #a9bdff;
+    text-decoration: underline;
+}
+
+a:active { /* selected link */
+    color: #ff9e9e;
+
+}
+
+
+body img{
+    width: 45%;
+}
+
+header img{
+    width: 80px;
 }
 
 
@@ -25,21 +129,18 @@ header{
     color: #A6A6A6;
 }
 
-.works {
+.works, .com_analysis, .findings {
     list-style: none;
 }
 
-.com_analysis{
-    list-style: none;
-}
-
-.findings {
-    list-style: none;
-}
 
 .nav {
     list-style: none;
-    display: inline; ;
+    display: inline;
+}
+
+.nav img {
+    width: 80px;
 }
 
 .about_me {
