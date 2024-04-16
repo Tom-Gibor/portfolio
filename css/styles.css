@@ -1,5 +1,4 @@
-
-
+/*ADDED FONTS*/
 .libre-franklin {
     font-family: "Libre Franklin", sans-serif;
     font-weight: 400;
@@ -24,35 +23,19 @@
     font-style: normal;
   }
 
-
+/*FONT*/
 body {
     font-family: "Libre Baskerville", serif;
 
 }
 
+/*IMG SIZE*/
 img{
     width: 100%;
 }
 
-a {
-    color: #0c20a0;
-    text-decoration: none; /* No underlining */
-  }
 
-a:visited { /* visited link */
-    color: #860d58;
-}
-
-a:hover {
-    color: #000070;
-    text-decoration: underline;
-}
-
-
-a:active { /* selected link */
-    color: #ac0000;
-}
-
+/*HEADINGS*/
 h1, h2, h3, h4 {
     line-height: 1.4;
 }
@@ -83,40 +66,76 @@ p {
     line-height: 1.8;
 }
 
+/*HEADER SHAPE*/
 header{
     width: 100%;
     height: 60px;
     display: block;
-    background-color: black;
+    background-color: #0f0f0f;
 }
 
-header a {
+/*LOGO*/
+#logo {
+    width: 80px;
+}
+
+/*HEADER NAV*/
+.nav a {
     color: #ffffff;
     text-decoration: none; /* No underlining */
 }
 
-a:visited { /* visited link */
+.nav a:visited { /* visited link */
     color: #ffffff;
 }
 
-a:hover {
+.nav a:hover {
     color: #a9bdff;
     text-decoration: underline;
 }
 
-a:active { /* selected link */
+.nav a:active { /* selected link */
     color: #ff9e9e;
 
 }
 
+/*HEADER NAV*/
+.nav {
+    list-style: none;
+    display: inline;
+    text-align: right;
+}
+.nav ul{
+    text-align: right;
+}
 
+
+/*INDEX LINKS*/
+body a {
+    color: #0c20a0;
+    text-decoration: none; /* No underlining */
+}
+
+body a:visited { /* visited link */
+    color: #860d58;
+}
+
+body a:hover {
+    color: #000070;
+    text-decoration: underline;
+}
+
+
+body a:active { /* selected link */
+    color: #ac0000;
+}
+
+/*CASE_STUDY*/
 body img{
     width: 45%;
 }
 
-header img{
-    width: 80px;
-}
+
 
 
 .short {
@@ -134,14 +153,7 @@ header img{
 }
 
 
-.nav {
-    list-style: none;
-    display: inline;
-}
 
-.nav img {
-    width: 80px;
-}
 
 .about_me {
     font-size: 20px;
@@ -165,8 +177,12 @@ header img{
     width: 18%;
 }
 
-#beginning img {
+#pp_hero img {
     width: 25%;
+}
+
+.pp_title {
+    text-align: center;
 }
 
 #problem_state img {
@@ -244,4 +260,15 @@ header img{
 
 #contact img {
     width: 3%;
+}
+
+
+#about {
+    text-align: center;
+}
+
+#skills {
+    text-align: left;
+    align-items: center;
+    
 }
