@@ -9,34 +9,37 @@
 
 <body>
 
-    <header id="header">
-        <div><!--logo-->
-            <img id="logo" src="img/tuxo_logo2.png" alt="Logo" width="80" class="nav">
+    <header id="header" class="header">
+        <div class="header-elements">
+        <div class="header-logo"><!--logo-->
+            <h3 class="header-logo">TUXO</h3>
+            <!--<img id="logo" src="img/tuxo_logo2.png" alt="Logo" width="80" class="nav">-->
         </div>
-        <div><!--nav_menu-->
-            <nav>
-                <ul class="nav">
-                    <li class="nav"><a href="./index.html">home</a></li>
-                    <li class="nav"><a href="./about_me.html">About Me</a></li>
-                    <li class="nav"><a href="#">Work</a></li>
-                    <li class="nav"><a href="#contact">Contact</a></li>
-                    <li class="nav"><a href="#">Resume</a></li>
+        <div class="header-nav"><!--nav_menu-->
+                <ul class="header-nav-list">
+                    <li class="header-nav-item"><a href="./index.html">Home</a></li>
+                    <li class="header-nav-item"><a href="./about_me.html">About Me</a></li>
+                    <li class="header-nav-item"><a href="#">Work</a></li>
+                    <li class="header-nav-item"><a href="#contact">Contact</a></li>
+                    <li class="header-nav-item"><a href="#">Resume</a></li>
                 </ul>
-            </nav>
+        </div><!--CLOSE_nav_menu-->
         </div>
     </header>
 
-    <section id="pp_hero"><!--case_study_into-->
-        <h1 class="pp_title">“Access cards, tickets, and payments, anytime, anywhere, right from your smartphone.”</h1>
+    <section class="pp-hero"><!--case_study_into-->
+        <h1 class="pp-title">“Access cards, tickets, and payments, anytime, anywhere, right from your smartphone.”</h1>
+        <div class="mockup">
         <img src="img/pinnacle_mockup_x3.png" alt="a mockup of the app's dashboard">
+        </div>
     </section>
     <div><!--section_divider-->
         <p class="divider">
             PinnaclePay</p>
     </div>
-    <section id="intro">
-        <div><!--context-->
-            <h2>Context</h2>
+    <section class="intro">
+        <div class="Context"><!--context-->
+            <h2 class="Context">Context</h2>
             <p>
                 The East Asian market has different offers of mobile wallet applications than commonly used in the West.
                 Many of these apps require users to have a local bank account or a certain type of visa.
@@ -45,18 +48,18 @@
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div id="problem_state"><!--problem_statement-->
-            <h1>Problem Statement</h1>
-            <h2>Non-residents need a way to access instant payments in Singapore.</h2>
+        <div class="problem-state"><!--problem_statement-->
+            <h1 class="problem-state">Problem Statement</h1>
+            <h2 class="problem-state">Non-residents need a way to access instant payments in Singapore.</h2>
             <br>
-            <h3>Cross-border payments providers in Southeast Asia</h3>
+            <h3 class="problem-state">Cross-border payments providers in Southeast Asia</h3>
             <img src="img/Asian_context_x3.png" alt="a map of the most used mobile wallets in different parts of Southeast Asia">
             <h3>Source: FXC Intelligence analysis, country announcements</h3>
         </div>
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div><!--About-->
+        <div class="about-pp"><!--About-->
             <h2>About</h2>
             <p>
                 Pinnacle-Pay is a payment solution tailored for foreigners navigating Asian markets. 
@@ -67,7 +70,7 @@
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div><!--Challanges-->
+        <div class="challanges-pp"><!--Challanges-->
             <h2>Challanges</h2>
             <p>The first challenge is to ensure that the benefits of using the app outweigh any inconvenience or potential risks.
                  Many users have had negative experiences with these types of apps, losing money and feeling powerless to recover it. 
@@ -76,7 +79,7 @@
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div><!--My Role-->
+        <div class="my-role"><!--My Role-->
             <h2>My Role</h2>
             <p>I undertook this project from a group of entrepreneurs residing in Vietnam.
                 I'm acquainted with one of them and he shared the problem they would wish to resolve. 
@@ -86,7 +89,7 @@
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div><!--Main Tasks-->
+        <div class="main-tasks"><!--Main Tasks-->
             <h2>Main Tasks</h2>
             <ol>
                 <li>Competitor & Market Analysis</li> 
@@ -100,7 +103,7 @@
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div id="design_proc"><!--Design Process-->
+        <div class="design-proc"><!--Design Process-->
             <h2>Design Process</h2>
             <p>First, it's important to note that the design process is <b>far from a linear path</b>, 
                 often taking <b>unexpected turns</b> <b>and requiring multiple iterations.</b> 
@@ -133,29 +136,28 @@
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div id="comp_analysis"><!--Competitive Analysis_Competitors-->
-            <ul class="com_analysis">
-                <li><!--PayPal-->
+        <div class="comp-analysis"><!--Competitive Analysis_Competitors-->
+            <ul class="com-analysis">
+                <li class="ca-item"><!--PayPal-->
                     <img src="img/paypal_x4.png" alt="paypal logo">
                     <p>PayPal is a leading player in the online payment industry,
                         continuously expanding its services and user base.
                         Analyzing it helped me identify market trends,
                         benchmark practices, and identify untapped opportunities.</p>
-                    <br><br><br>
                 </li>
-                <li><!--Google_Wallet-->
+                <li class="ca-item"><!--Google_Wallet-->
                     <img src="img/g_wallet_x4.png" alt="Google Wallet icon">
                     <p>By researching Google wallet  I could learn more about a Western- American consumer oriented product,
                          and Identify strengths and weakness before iterating my own solution.</p>
                     <br><br><br>
                 </li> 
-                <li><!--Cheque_UPI-->
+                <li class="ca-item"><!--Cheque_UPI-->
                     <img src="img/cheque_x4.png" alt="check U.P.I. logo">
                     <p>Cheq UPI is an app providing a similar service but in India.
                         They aim to bridge the gap between the UPI payment service to non-residents that don't normally have access to it.</p>
                     <br><br><br>
                 </li>
-                <li><!--Grab-->
+                <li class="ca-item"><!--Grab-->
                     <img src="img/grab_x4.png" alt="Grab logo">
                     <p>Grab is a prominent player in the ride-hailing and delivery service  industry across Southeast Asia.
                          It offers a lot of content that can enrich and inspire any e-wallet.</p>
@@ -183,7 +185,7 @@
                 <h2>Affinity Map of the gathered info</h2>
                 <p>Each color represents a person</p>
             </div>
-            <div id="affinity_personas"><!--Affinity Map Images-->
+            <div class="affinity-personas"><!--Affinity Map Images-->
                 <br><br><br>
                 <img src="img/Affinity_1_x4.png" alt="Affinity map notes">
                 <br><br><br>
@@ -198,9 +200,9 @@
             <br><br><br>
             <hr class="short">
             <br><br><br>
-             <div id="key_finsings"><!--Key Findings-->
+             <div class="key-findings"><!--Key Findings-->
                 <ul class="findings">
-                    <li>
+                    <li class="finding-item">
                         <div>
                             <img src="img/protect_svg.svg" alt="image of a shield">
                         </div><br><br>
@@ -210,7 +212,7 @@
                                  The fear of losing the phone, having it stolen, forgetting passwords, or having your money stolen.</p>
                         </div><br><br>
                     </li>
-                    <li>
+                    <li class="finding-item">
                         <div>
                             <img src="img/benefits_svg.svg" alt="two hands collecting gifts">
                         </div><br><br>
@@ -220,7 +222,7 @@
                                  Even reluctant users might opt to use an app if they get a return worth money.</p>
                         </div><br><br>
                     </li>
-                    <li>
+                    <li class="finding-item">
                         <div>
                             <img src="img/pain_svg.svg" alt="a suffering emoji">
                         </div><br><br>
@@ -230,7 +232,7 @@
                                  and some cards offer undesired payment conditions such as high commission or exchange rates abroad.</p>
                         </div><br><br>
                     </li>
-                    <li>
+                    <li class="finding-item">
                         <div>
                             <img src="img/norms_svg.svg" alt="a stickfiguere">
                         </div><br><br>
@@ -240,7 +242,7 @@
                                  in countries where most people pay with their mobile, non-residents want to do the same.</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="finding-item">
                         <div>
                             <img src="img/cus_serv_svg.svg" alt="icons of messaging and talking">
                         </div><br><br>
@@ -252,7 +254,7 @@
                                    On Pay Pal, however, there is no guarantee.</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="finding-item">
                         <div>
                             <img src="img/feature_svg.svg" alt="three sqaures and a star">
                         </div><br><br>
@@ -279,7 +281,7 @@
                     <b>The second</b> character <b>is Ron</b>, a tech-oriented person with more familial responsibilities, actively seeking solutions.
                     The creation of these personas ensured that my design was centered around <b>real users</b>, and my iteration was guided by <b>empathy</b> for actual <b>people</b>.</p> 
             </div>
-            <div id="personas"><!--Personas images-->
+            <div class="personas"><!--Personas images-->
                 <br><br><br>
                 <img src="img/persona1_x4.png" alt="first perona details">
                 <br><br><br><br>
@@ -301,7 +303,7 @@
                     The following journeys show simple actions that users are likely to take.</p> 
             </div>
             <br><br>
-            <div id="journey_map"><!--Journey Maps_images-->
+            <div class="journey-map"><!--Journey Maps_images-->
                 <img src="img/journey1_x4.png" alt="user journey representation">
                 <br><br><br><br>
                 <hr class="short">
@@ -322,7 +324,7 @@
                     It proved to be an invaluable tool for identifying the necessary screens and interactions of the app before starting
                         the information architecture phase.</p> 
             </div>
-            <div id="user_flow"><!--User Flows_images-->
+            <div class="user-flow"><!--User Flows_images-->
                 <h2>Find a Ticket</h2>
                 <img src="img/user_flow_findticket_svg.svg" alt="a user flow of finding a ticket">
                 <br><br>
@@ -335,7 +337,7 @@
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div id="card_sort">
+        <div class="card-sort">
             <h2>Card Sorting</h2>
             <p>The Information Architecture phase requires any designer or product manager to take crucial decision concerning the structure of our solutions. To avoid guessing, I used the Card Sorting method, tasking participants with grouping 20 different concepts. This tool allowed me to give users a more seamless experience of navigation through the app.
                 The higher the number, the higher percentage of time the items were grouped together by users.</p> 
@@ -350,7 +352,7 @@
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div id="info_arch">
+        <div class="info-arch">
             <h2>Information Architecture</h2>
             <p>After sorting the cards, I worked on organizing and mapping out the hierarchy.
                  I drew a sitemap to show how the pages are arranged and linked together in the app.
@@ -363,13 +365,14 @@
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div id="lofi_proto">
+        <div class="lofi-proto">
             <h2>Low Fidelity Prototyping</h2>
             <p>After sketching a comprehensive site map, and several user flows, it was time to make the plans a reality.
                  Although an exciting stage for every designer,
                   it was important to not fall into the trap of wasting precious time on aesthetics,
                    as this phase is more about designing the interactions rather than the app style.
                     Here are a few low-fi prototypes that include possible pathways for users.</p> 
+            <br>
             <div>
                 <h2>2 Steps Verification</h2>
                 <img src="img/2st_x4.png" alt="a sketch of a feature">
@@ -384,7 +387,7 @@
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div id="work_proto">
+        <div class="work-proto">
             <h2>Working Prototype</h2>
             <p>After several rounds of sketching basic wireframes,
                  I refined my concepts into a high-fidelity prototype.
@@ -405,23 +408,19 @@
                     It is practice that has a great return for the resources invested. </p> 
                 <br><br>
             </div>
-            <div id="test_obj"><!--Testing objectives-->
+            <div class="test-obj"><!--Testing objectives-->
                 <ul class="objectives">
-                    <li>
-                        <div>
+                    <li class="objectives-item">
                             <img src="img/goal_svg.svg" alt="arrow on a target">
-                        </div>
-                        <div>
+                        <div >
                             <h2>Study Goals</h2>
                             <p>The goal was to expose any wrong assumptions made while designing the
                                 app. Notably by observing human errors. I tried to find new ways the
                                 app could be more efficient and learnable for the users.</p>
                         </div><br><br>
                     </li>
-                    <li>
-                        <div>
+                    <li class="objectives-item">
                             <img src="img/objectives_svg.svg" alt="a list on a page">
-                        </div>
                         <div>
                             <h2>Test Objectives</h2>
                             <p>I tested three main features of the app:</p>
@@ -432,10 +431,8 @@
                             </ul>
                         </div><br><br>
                     </li>
-                    <li>
-                        <div>
+                    <li class="objectives-item">
                             <img src="img/methodology_svg.svg" alt="science">
-                        </div>
                         <div>
                             <h2>Methodology</h2>
                             <p>I used three different ways of testing: moderated face-to-face, remote testing, as
@@ -450,19 +447,20 @@
                      The latter makes it easier to communicate the results with stakeholders.</p>
                 <br><br>
             </div><!--Close_Testing objectives-->
-            <div id="test_affinity"><!--Testing Affinity Map-->
+            <div class="test-affinity"><!--Testing Affinity Map-->
                 <h2>Affinity Map</h2>
                 <img src="img/usa_tes_affinity_x4.png" alt="affinity map for usability testing">
             </div>
         </div><!--Close_Usability Testing-->
+    </section>
         <div><!--section_divider-->
             <p class="divider">
                 Design Evolution
             </p>
         </div>
-    </section>
-    <section id="design">
-        <div id="design_evo">
+    
+    <section class="design">
+        <div class="design-evo">
             <h2>About The Design</h2>
             <p>The initial name for the product was PlutoPay, after several iterations,
                  I renamed it PinnaclePay and rebranded it around a simple and clean image of summits and the range of blue and white colors.
@@ -484,7 +482,7 @@
             <img src="img/pay_x4.png" alt="evolution of payment screens">
             <br><br>
             <h2>Confiramtion</h2>
-            <img src="img/confirm_x4.png" alt="evolution of confirmation message" style="width:42%;">
+            <img src="img/confirm_x4.png" alt="evolution of confirmation message">
             <br><br><br>
             <hr class="long">
             <br><br><br>
@@ -495,69 +493,74 @@
                  I refined my concepts into a high-fidelity prototype.
                   I used Figma to create basic wireframes, mid-fidelity,
                    and finally, working and interactive prototypes.</p> 
-            <div id="prototype">
-                <img src="img/spla_screen_x4.png" alt="pinnacle pay splash screen on a mobile phone">
-            </div>
-            <div>
-                <ol class="prototype flows">
-                    <li><a href="#">Onboarding</a></li>  
-                    <li><a href="#">Wallet</a></li>
-                    <li><a href="#">Pay</a></li>
-                    <li><a href="#">Find Tickets</a></li>
-                    <li><a href="#">Send Money</a></li>
-                    <li><a href="#">Exploring</a></li>
+        </div>
+        <div class="prototype">
+            <img src="img/spla_screen_x4.png" alt="pinnacle pay splash screen on a mobile phone">
+            <div class="proto-flows-links">
+                <ol>
+                    <li class="proto-flows-links"><a href="#">Onboarding</a></li>  
+                    <li class="proto-flows-links"><a href="#">Wallet</a></li>
+                    <li class="proto-flows-links"><a href="#">Pay</a></li>
+                    <li class="proto-flows-links"><a href="#">Find Tickets</a></li>
+                    <li class="proto-flows-links"><a href="#">Send Money</a></li>
+                    <li class="proto-flows-links"><a href="#">Exploring</a></l>
                 </ol>
             </div>
         </div>
         <br><br><br>
         <hr class="long">
         <br><br><br>
-        <div>
+        <div class="style-guide">
             <h2>Style Guide</h2>
             <p>The image below has a clickable link to the entire design system used for PinnaclePay.
                  It includes my philosophy behind the design, the UI details, elements, and much more.
                   This should facilitate efficient collaboration on the project.</p> 
         </div>
         <br><br>
-        <div id="design_system">
+        <div class="design-system">
             <a href="#">Design System Link</a>
             <br><br>
             <img src="img/design_sys_x4.png" alt="desig system">
         </div>
         <div><!--section_divider-->
+    </section>
             <p class="divider">
                 Learnings
             </p>
-        </div>
-        <h2>Design is about empathy, it's about understanding people, businesses,
-             programmers, and constraints. It is my job to bridge the gaps between those elements
+        </div><br><br><br><br>
+    <div class="learn-title">
+        <h2 class="learn-title">Design is about empathy, it's about understanding people, businesses,
+            programmers, and constraints. It is my job to bridge the gaps between those elements
         </h2>
-        <br><br>
-        <hr class="short">
-        <br><br>
-        <p>
-            This was the first project I undertook entirely by myself.
-             From the problem statement to research, iteration, design,
-              and revisions. It is ready, but like every project it can surely be improved on.
-               I learned a lot about the struggle of extracting useful information from sources online and from people.
-                One mistake I made at the beginning was placing buttons without texts, which can often create confusion.
-                 I also left out coaching marks that could ease users' learning curve. 
-                Another conclusion I had from the user research is that it might not be enough to create a comfortable environment and ask “good” questions.
-                 People don't know what they don't know, and sometimes they can't tell us the best answers because they are unaware of them.
-                  For my future user research, I will search for more strategies to find useful information about users' perceptions and behaviors.
-                The next challenge I'm taking on myself is building the web application by myself using front-end developer's skills.
-        </p>
-        <br><br><br>
-        <div id="return_to_top">
-            <a href="#beginning">Return to the top of the page</a><br>
-            <img src="img/up_arrow_svg.svg" alt="arrow up right">
+    </div>
+    <section class="learnings">
+        <div>
+            <br><br><br><br>
+            <hr class="short">
+            <br><br><br><br>
+            <p class="learnings">
+                This was the first project I undertook entirely by myself.
+                 From the problem statement to research, iteration, design,
+                  and revisions. It is ready, but like every project it can surely be improved on.
+                   I learned a lot about the struggle of extracting useful information from sources online and from people.
+                    One mistake I made at the beginning was placing buttons without texts, which can often create confusion.
+                     I also left out coaching marks that could ease users' learning curve. 
+                    Another conclusion I had from the user research is that it might not be enough to create a comfortable environment and ask “good” questions.
+                     People don't know what they don't know, and sometimes they can't tell us the best answers because they are unaware of them.
+                      For my future user research, I will search for more strategies to find useful information about users' perceptions and behaviors.
+                    The next challenge I'm taking on myself is building the web application by myself using front-end developer's skills.
+            </p>
+        </div>
+        <br><br><br><br><br>
+        <div class="return-to-top">
+            <a class="return_to_top" href="#header">Return to the top of the page</a><br>
+            <img class="return_to_top" src="img/up_arrow_svg.svg" alt="arrow up right">
         </div>
         <br><br><br>
-        <hr>
     </section>
     
     <footer id="contact">
-        <section>
+        <section class="contact">
             <br><br>
             <h2>Get in Touch</h2>
             <p>Have questions? Want to explore cooperation? Need a coffee buddy?</p>

@@ -8,62 +8,72 @@
     </head>
 
     <body>
-        <header id="header">
-            <div><!--logo-->
-                <img id="logo" src="img/tuxo_logo2.png" alt="Logo" width="80" class="nav">
+        <header id="header" class="header">
+            <div class="header-elements">
+            <div class="header-logo"><!--logo-->
+                <h3 class="header-logo">TUXO</h3>
+                <!--<img id="logo" src="img/tuxo_logo2.png" alt="Logo" width="80" class="nav">-->
             </div>
-            <div><!--nav_menu-->
-                <nav>
-                    <ul class="nav">
-                        <li class="nav"><a href="./index.html">home</a></li>
-                        <li class="nav"><a href="./about_me.html">About Me</a></li>
-                        <li class="nav"><a href="#">Work</a></li>
-                        <li class="nav"><a href="#contact">Contact</a></li>
-                        <li class="nav"><a href="#">Resume</a></li>
+            <div class="header-nav"><!--nav_menu-->
+                    <ul class="header-nav-list">
+                        <li class="header-nav-item"><a href="./index.html">Home</a></li>
+                        <li class="header-nav-item"><a href="./about_me.html">About Me</a></li>
+                        <li class="header-nav-item"><a href="#">Work</a></li>
+                        <li class="header-nav-item"><a href="#contact">Contact</a></li>
+                        <li class="header-nav-item"><a href="#">Resume</a></li>
                     </ul>
-                </nav>
+            </div><!--CLOSE_nav_menu-->
             </div>
         </header>
-
-        <section id="about">
-            <div id="experience">
-                <h1>About Me</h1>
-                <img src="img/tomer_img.jpg" alt="a collage of tomer's pictures">
-                <h1>I'm glad to see you're interested in me</h1>
-                <p class="about_me">
+        <br>
+        <br><br><br>
+        <div>
+            <h1 class="about">About Me</h1><br><br><br>
+            <img src="img/tomer_img.jpg" alt="a collage of tomer's pictures"><br><br><br><br><br>
+            <h1 class="about">I'm glad to see you're interested</h1>
+        </div>
+      
+        <br><br>
+        <section class="about">
+            <div class="about-me">
+                <p class="about-me">
                 UX/UI Designer shifted from the world of education. During 5 years of teaching, staff training, and management,
-                 I've honed my skills in communication, 
+                I've honed my skills in communication, 
                 curriculum development, and problem-solving. These skills help me research, and create a human-centered design.   
                 </p>
-
-                <div id="skills" ><!--first_row-->
-                    <h3>My skills include:</h3>
-                    <div><!--first_column-->
-                        <ul>
-                            <li>User research</li>
-                            <li>Wireframing</li>
-                            <li>Prototyping</li>
-                            <li>User Interface (UI) Design</li>
-                            <li>Usability Testing</li>
-                        </ul>
-                    </div>
-
-                    <div><!--second_column-->
-                        <ul>
-                            <li>Frontend development (HTML, CSS, JavaScript)</li>
-                            <li>Videography (Shotcut)</li>
-                            <li>Staff training and managing</li>
-                            <li>Communication and presentation</li>
-                        </ul>
-                    </div>
-                </div>
-                <a href="#">Download My Resume</a>
             </div>
-        <br>
-        <br>
-            <div id="personal">
+            <br><br><br><br>
+            <hr class="short">
+            <br><br><br><br>
+            <br>
+            <h3 class="about">My skills include:</h3>
+            <div class="skills" ><!--skills_container-->
+                <div class="skills-container"><!--first_column-->
+                    <ul class="skills-list1">
+                        <li class="skills-list1">User research</li>
+                        <li class="skills-list1">Wireframing</li>
+                        <li class="skills-list1">Prototyping</li>
+                        <li class="skills-list1">User Interface (UI) Design</li>
+                        <li class="skills-list1">Usability Testing</li>
+                    </ul>
+                </div>
+                <div class="skills-container2"><!--second_column-->
+                    <ul class="skills-list2">
+                        <li class="skills-list2">Frontend-Dev: CSS, HTML, JS</li>
+                        <li class="skills-list2">Videography (Shotcut)</li>
+                        <li class="skills-list2">Staff Training and Managing</li>
+                        <li class="skills-list2">Communication and Presentation</li>
+                    </ul>
+                </div>
+             </div><!--CLOSE_skills_container-->
+            <br>
+            <br>
+            <a href="#">Download My Resume</a>
+            <br><br><br><br>
+            
+            <div class="personal">
                 <img src="img/about_reading.png" alt="people sitting on books and reading">
-                <br>
+                <br><br>
                 <p class="about_me">
                     I'm passionate about philosophy, psychology, the human experience, and what motivates us. 
                     That is why I took coaching and NLP courses alongside more traditional psychology courses. 
@@ -72,30 +82,39 @@
             </div>
         <br>
         <br>
-            <div id="personal2">
+            <div class="personal">
                 <img src="img/thinking_bubble.png" alt="a person reflecting">   
-                <br>
+                <br><br>
                 <p class="about_me">  love  practicing photography, acting and writing. I'm into physical and mental health, and value wellbeing .</p>
                 <br>
                 <br>
                 <img src="img/creative_book_W.png" alt="a book and drawing accessories">
+                <br><br>
             </div>
         </section>
         <br>
         <br>
-    <hr>
 
     <footer id="contact">
-        <h2>Get in Touch</h2>
-        <p>Have questions? Want to explore cooperation? Need a coffee buddy?<br>Email or massgage me on LinkedIn</p>
-        <div id="contact2">
-            <a href="mailto:tomer@15designs.com" target="_blank" rel="noreferrer"><img src="img/email_icon.svg" alt="Email icon"></a>
-            <a href="http://linkedin.com/in/tomeruxroz" target="_blank" rel="noreferrer"><img src="img/linkedin_icon.svg" alt="LinkedIn icon"></a>
-            <a href="https://instagram.com/tom_gibor" target="_blank" rel="noreferrer"><img src="img/instagram_icon.svg" alt="instagram_icon icon"></a>
-        </div>
-        <br>
-        Copyright &copy; Tomer Rozenberg
+        <section class="contact">
+            <br><br>
+            <h2>Get in Touch</h2>
+            <p>Have questions? Want to explore cooperation? Need a coffee buddy?</p>
+            <p>Email or massgage me on LinkedIn</p>
+            <br><br>
+            <a href="mailto:tomer@15designs.com" target="_blank" rel="noreferrer">
+                <img src="img/email_icon.svg" alt="Email icon"></a>
+            <a href="http://linkedin.com/in/tomeruxroz" target="_blank" rel="noreferrer">
+                <img src="img/linkedin_icon.svg" alt="LinkedIn icon"></a>
+            <a href="https://instagram.com/tom_gibor" target="_blank" rel="noreferrer">
+                <img src="img/instagram_icon.svg" alt="instagram_icon icon"></a>
+            
+            <br><br><br>
+            Copyright &copy; Tomer Rozenberg
+            <br><br><br><br>
+        </section>
     </footer>
+    
     </body>
 
 
