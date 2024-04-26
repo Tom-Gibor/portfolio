@@ -25,6 +25,207 @@
     font-style: normal;
   }
 
+
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .prompt-regular {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+  .ibm-plex-sans-thin {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-thin-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-extralight {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-extralight-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-light {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-light-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-regular {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-regular-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-medium {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-medium-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-semibold {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-semibold-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .ibm-plex-sans-bold {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-bold-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
 /*UNIVERSALS*/
 * {
     box-sizing: inherit;
@@ -36,11 +237,18 @@ html {
 
 /*FONT*/
 body {
-    font-family: "Libre Baskerville", serif;
+    font-family: "Poppins", serif;
     box-sizing: border-box;
     line-height: 1.7;
     list-style: none;
+    background-color: #A8A9A9;
 }
+
+#pinnacle_case {
+    background-color: #ffffff;
+}
+
+
 
 /*IMG SIZE*/
  img{
@@ -113,79 +321,124 @@ body a:active { /* selected link */
 
 /*HEADER SHAPE*/
 header{
-    width: 100%;
-    display: block;
-    background-color: #202020;
-    padding: 1rem;
+    height: 8vh;
+    text-align: center;
+    overflow: hidden;
+    align-items: center;
+    padding: 0rem;
 }
+
+
+
 
 /*HEADER ELEMENTS*/
 .header-elements {
     display: flex;
+    background: linear-gradient(#ffffff, #ffffff46);
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    min-height: 8vh;
 }
 
 /*LOGO*/
 .header .header-logo h3{
-    color: #ffffff;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 700;
-    padding: 0.5% 0.5%;
+    color: #2c2c2c;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    padding: 0.5% 3rem;
     margin: 1rem;
+    font-size: 3.5rem;
 }
 
 
 /*HEADER NAV*/
 .header-nav li {
     display: inline;
-    padding: 0px 4rem;
+    padding: 0rem 4rem;
     list-style: none;
+    
+
     
 }
 
 /*HEADER LINKS*/
 .header-nav-item a {
-    color: #ffffff;
+    color: #464646;
     text-decoration: none; /* No underlining */
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .header-nav-item a:visited{
-    color: #ffffff;/* visited link */
+    color: #464646;/* visited link */
 }
 
 
 
 .header-nav-item a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    
 }
 
 /*HERO TEXT*/
 .hero {
     padding-left: 3%;
     padding-top: 12%;
-    padding-bottom: 2%;
-    background-image: url(../img/hero2.jpg);
-    background-position: center;
-    height: 70vh;
-    background-size: cover;
-    border-bottom:0.7rem solid #404040;
+    padding-bottom: 4%;
+    
+
     
     
 }
 
+video {
+    position: absolute;
+    
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: translate(0, 0);
+    min-width: 100%;
+    
+    background-color: hsl(0, 0%, 93.5%);
+    z-index: -2;
+    object-position: top;
+    object-fit:cover;
+}
+
+
+
 .hero-text {
-    background-color: #ffffff8e;
+    background: linear-gradient(to right,#ffffffc5, #ffffff46);
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
-    width: 45%;
+    min-width: 45%;
+    max-width: 50%;
     padding-left: 3%;
     padding-bottom: 2%;
     padding-top: 2%;
+    padding-right: 3%;
 }
 
+.hero h1 {
+    font-weight: 500;
+    font-size: 3.5rem;
+    
+}
+
+.hero h2 {
+    font-weight: 450;
+    font-size: 3rem;
+}
+
+.hero h3 {
+    font-weight: 350;
+    font-size: 2.7rem;
+}
 
 .hero h1, .hero h2 ,.hero h3,.hero p {
     text-align: left;
@@ -205,68 +458,238 @@ header{
 }
 
 
+
 .work{
-    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 55%;
+    row-gap: 12rem;
     margin: auto auto;
+    
 }
 /*WORK TITLE*/
-.work h2 {
+.my-work h2 {
     text-align: center;
-}
-
-.work ul{
-    margin: auto auto;
-    padding: 0;
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: "prompt", sans-serif;
+    color: #ffffffe8;
+    margin-bottom: 0;
+    grid-row: 1 / 2;
     
 }
 
-.works-list li {
-    margin-bottom: 8rem;
-    justify-content: space-around;
+.my-work h2:hover{
     
-} 
+    color: #000000;
+}
+
+
+.work-title h2{
+    grid-row: 1 / 2;
+    
+}
+
+
+
 
 /*WORK CARD*/
-.wl-item {
+
+
+.wl-item1{
+    grid-row: 3 / 4;
     display: flex;
-    align-items: center;
     margin-bottom: 2%;
-    background-color: #e7e7e7;
-    border-color: #d9d9d9;
-    border-radius: 8%;
-    justify-content: space-around;
-    width: 100%;
-    flex-shrink: 0;
-    
+    background-color: #ffffff;
+    box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4)  ; 
+	-webkit-box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4)  ; 
+	-moz-box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 3rem;
+    justify-content: space-between;
+    flex: 1 1 auto;  
 }
 
-/*WORK-CARD-IMG*/
-.wl-item img {
-    height: 80%;
-    border-radius: 8% 0 0 8%;
-    align-self: normal;
+
+
+.wl-item2{
+    grid-row: 2 / 3;
+    display: flex;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4)  ; 
+	-webkit-box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4)  ; 
+	-moz-box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 3rem;
+    justify-content: space-between;
+    flex: 1 1 auto;  
 }
 
 
 /*WORK-CARD-TXT*/
-.wl-item h3, .wl-item p {
-    flex-wrap: wrap;
-    padding-left: 1.5rem;
+.wl-item1 h3, .wl-item2 h3 {
+    font-size: 3.7rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    margin: 0 0;
 }
 
-.wl-item h3 {
-    font-size: 2.6rem;
+.wl-item1 p, .wl-item2 p{
+    font-size: 2.4rem;
+    letter-spacing: 0.1rem;
+    
 }
 
-.wl-item p {
-    font-size: 1.6rem;
+.wl-item1 h6, .wl-item2 h6 {
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding: 0 0;
+    letter-spacing: 0.2rem;
+    margin-top: 0.7rem;
+}
+
+.wli-text .tags b {
+    padding: 0 1rem;
+    font-weight: 500;
 }
 
 
-.work-link {
-    padding-left: 1.5rem;
+
+
+
+/*WORK-CARD-IMG*/
+.wl-item1 img, .wl-item2 img{
+    border-radius: 3rem 0 0 3rem;
+    align-self: normal;
+    min-width: 22rem;
+    flex: 1 1 auto;
+}
+
+.wli-text {
+    font-family: "IBM Plex Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 20rem;
+    height:auto;
+    padding: 2.5rem 2.8rem;
+    border-radius: 3rem;
+    margin-right: 1rem;
+    flex: 1 1 auto;
+}
+
+
+
+
+
+
+.btn{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #5170be;
+    padding: 1.2rem 2rem;
+    border: solid 0.3rem #5170be;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 409ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;  
+    cursor: pointer;
+    min-width: 65%;
+    justify-content: center;
+    align-self: center;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+    
 
 }
+
+
+
+.btn-ac{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #DA7733;
+    padding: 1.2rem 2rem;
+    border: solid 0.3rem #DA7733;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 409ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;  
+    cursor: pointer;
+    min-width: 65%;
+    justify-content: center;
+    align-self: center;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+
+}
+
+
+.btn:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-ac:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+.btn:hover{
+    transition : 409ms;
+    padding: 1.2rem 2rem;
+    text-align: center;    
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #004f9e;
+    border: solid 0.3rem #0066cc;
+    align-self: center;
+    text-decoration: none;
+
+}
+
+
+.btn-ac:hover{
+    transition : 409ms;
+    padding: 1.2rem 2rem;
+    text-align: center;    
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #DA7733;
+    border: solid 0.3rem #DA7733;
+    align-self: center;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*ABOUT PAGE*/
@@ -553,4 +976,29 @@ header{
     text-align: left;
     align-items: center;
     
+}
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
 }
