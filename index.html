@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="css/styles.css">
+        <!-- <link rel="stylesheet" href="css/styles.css"> -->
+        <link rel="stylesheet" href="css/styles2.css">
+        <link rel="stylesheets" href="css/queries.css">
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -29,33 +32,35 @@
         <!--<video autoplay muted loop src="img/video_1920x1080.mp4"></video>-->
         
         <div class="header-elements">
-        <div class="header-logo"><!--logo-->
-            <h3 class="header-logo">TUXO</h3>
-            <!--<img id="logo" src="img/tuxo_logo2.png" alt="Logo" width="80" class="nav">-->
+                <h3 class="header-logo">TUXO</h3>
+            <div class="header-nav"><!--nav_menu-->
+                    <ul class="header-nav-list">
+                        <li class="header-nav-item"><a href="./index.html">Home</a></li>
+                        <li class="header-nav-item"><a href="./about_me.html">About Me</a></li>
+                        <li class="header-nav-item"><a href="#">Work</a></li>
+                        <!-- <li class="spec-nav-item"><a href="#contact">Contact</a></li>
+                        <li class="spec-nav-item"><a href="#">Resume</a></li> -->
+                    </ul>
+            </div><!--CLOSE_nav_menu-->
+        
+          
+            <!-- <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+            </button> -->
         </div>
-        <div class="header-nav"><!--nav_menu-->
-                <ul class="header-nav-list">
-                    <li class="header-nav-item"><a href="./index.html">Home</a></li>
-                    <li class="header-nav-item"><a href="./about_me.html">About Me</a></li>
-                    <li class="header-nav-item"><a href="#">Work</a></li>
-                    <li class="header-nav-item"><a href="#contact">Contact</a></li>
-                    <li class="header-nav-item"><a href="#">Resume</a></li>
-                </ul>
-        </div><!--CLOSE_nav_menu-->
-        </div>
-            
+
     </header>
 
 
     <section class="hero"><!--hero-->
         
         <div class="hero-text">
-            <h1>Hi, I'm Tomer Rozenberg</h1>
+            <h1>I'm Tomer Rozenberg</h1>
             <h2>A UX Designer</h2>
-            <h3>I do photography, philosophy, acting and writing. 
-            <br>
-            I'm intrigued by humans and striving to deliver impactful solutions to users and businesses.</h3>
+            <h3>I craft meaningful experiences that empower and delight users</h3>
         </div>
+        <img src="img/arrow_white.svg" alt="arrow down" class="down-arrow">
     </section>
     
     <main>
@@ -63,10 +68,13 @@
         
         <section class="my-work">
             <!-- <h2 >My Work</h2> -->
-            <br><br>
+            
             <div class="work">
-                <h2 class="work-title">"UX design is more than aesthetics; it's about crafting meaningful experiences that empower and delight users."
-                </h2>
+                <div class="work-title">
+                    <h2 class="work-title">"UX design is more than aesthetics; it's about crafting meaningful experiences that empower and delight users."
+                    </h2>
+                    <h4 class="second-title">Check out my work</h>
+                </div>
                 <div class="wl-item1"><!--case study card-->
                     <img src="img/pikaso_enhance_pikaso.jpg" alt="image of a phone">
                     <div class="wli-text"><!--right side of the card-->
@@ -86,17 +94,17 @@
                     </div>
                 </div>
             </div>
-            <br><br><br><br>
+            
         </section>
 
     </main>
-    <br><br><br><br><br><br><br><br>
-    <footer id="contact">
-        <section class="contact">
-            <br><br>
-            <h2>Get in Touch</h2>
-            <p>Have questions? Want to explore cooperation? Need a coffee buddy?</p>
-            <p>Email or massgage me on LinkedIn</p>
+    
+    <footer class="contact" id="contact">
+        <section >
+            
+            <p class="contact-p">Get in Touch</p>
+            <p class="contact-p">Have questions? Want to explore cooperation? Need a coffee buddy?</p>
+            <p class="contact-p">Email or massgage me on LinkedIn</p>
             <br><br>
             <a href="mailto:tomer@15designs.com" target="_blank" rel="noreferrer">
                 <img src="img/email_icon.svg" alt="Email icon"></a>
@@ -105,9 +113,9 @@
             <a href="https://instagram.com/tom_gibor" target="_blank" rel="noreferrer">
                 <img src="img/instagram_icon.svg" alt="instagram_icon icon"></a>
             
-            <br><br><br>
-            Copyright &copy; Tomer Rozenberg
-            <br><br><br><br>
+            
+            <p class="copy">Copyright &copy; Tomer Rozenberg</p>
+            
         </section>
     </footer>
 

@@ -1,0 +1,447 @@
+
+
+
+
+
+
+
+
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  
+
+    .hero {
+        padding-left: 3%;
+        padding-top: 12%;
+        padding-bottom: 4%;
+    
+    }
+
+    .hero-text {
+        background: linear-gradient(to right,#ffffffc5, #ffffff46);
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        min-width: 45%;
+        max-width: 80%;
+        padding-left: 3%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        padding-right: 3%;
+    }
+
+    .wli-text {
+        padding-left: 2rem;
+    }
+
+
+    /*TAGS*/
+    .wl-item1 h6, .wl-item2 h6 {
+        font-size: 1rem;
+        font-weight: 400;
+        
+    }
+    
+    /*MAIN TITLE*/
+    .wl-item1 h3, .wl-item2 h3 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+        margin: 0 0;
+    }
+
+    /*SECONDARY TITLE*/
+    .wl-item1 p, .wl-item2 p{
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
+        
+    }
+
+    .btn-ac{
+        font-size: 1.2rem;
+    
+    }
+
+    .btn{
+        font-size: 1.2rem;
+    }
+    
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+
+@media only screen and (min-width: 870px){
+    .wli-text {
+        padding-left: 2rem;
+    }
+
+
+    /*TAGS*/
+    .wl-item1 h6, .wl-item2 h6 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        
+    }
+    
+    /*MAIN TITLE*/
+    .wl-item1 h3, .wl-item2 h3 {
+        font-size: 3rem;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+        margin: 0 0;
+    }
+
+    /*SECONDARY TITLE*/
+    .wl-item1 p, .wl-item2 p{
+        font-size: 1.6rem;
+        letter-spacing: 0.1rem;
+        
+    }
+
+    .btn-ac{
+        font-size: 1.4rem;
+    
+    }
+
+    .btn{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .wli-text {
+        padding-left: 2.6rem;
+    }
+
+
+    /*TAGS*/
+    .wl-item1 h6, .wl-item2 h6 {
+        font-size: 1.6rem;
+        font-weight: 400;
+        
+    }
+    
+    /*MAIN TITLE*/
+    .wl-item1 h3, .wl-item2 h3 {
+        font-size: 3.8rem;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+        margin: 0 0;
+    }
+
+    /*SECONDARY TITLE*/
+    .wl-item1 p, .wl-item2 p{
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        
+    }
+
+    .btn-ac{
+        font-size: 2rem;
+        padding: 1.2rem 1rem;
+    
+    }
+
+    .btn{
+        font-size: 2rem;
+        padding: 1.2rem 1rem;
+    }
+
+
+}
+
+
+
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media  only screen and (min-width: 1440px) {
+    .hero-text {
+        background: linear-gradient(to right,#ffffffc5, #ffffff46);
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        min-width: 45%;
+        max-width: 50%;
+        padding-left: 3%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        padding-right: 3%;
+        align-items: center;
+    }
+
+
+    .hero h1 {
+        font-weight: 500;
+        font-size: 3.5rem;
+        
+    }
+    
+    .hero h2 {
+        font-weight: 450;
+        font-size: 3rem;
+    }
+    
+    .hero h3 {
+        font-weight: 350;
+        font-size: 2.7rem;
+    }
+    
+
+    .hero h1, .hero h2 ,.hero h3,.hero p {
+        text-align: left;
+    }
+    
+
+    .work{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 55%;
+        row-gap: 12rem;
+        margin: auto auto;
+        
+    }
+    /*WORK TITLE*/
+    .my-work h2 {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 400;
+        font-family: "prompt", sans-serif;
+        color: #ffffffe8;
+        margin-bottom: 0;
+        
+        grid-row: 1 / 2;
+        
+    }
+    
+    .my-work .work h4{
+        grid-row: 1 / 2;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 0.8rem;
+        font-family: "prompt", sans-serif;
+        color: #ffffffe8;
+        margin-bottom: 0;
+    }
+    
+    /* .my-work h2:hover{
+        transition: 1s;
+        background-clip: text;
+        background: -webkit-linear-gradient(#fff9cc, #fef9ed);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    } */
+    
+    
+    .work-title h2{
+        grid-row: 1 / 2;
+        
+    }
+    
+    
+    
+    
+    /*WORK CARD*/
+    
+    
+    .wl-item1{
+        grid-row: 3 / 4;
+        display: flex;
+        margin-bottom: 10%;
+        background-color: #ffffff;
+        box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4)  ; 
+        -webkit-box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4)  ; 
+        -moz-box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4);
+        border-radius: 3rem;
+        justify-content: space-between;
+        flex: 1 1 auto;  
+    }
+    
+    
+    
+    .wl-item2{
+        grid-row: 2 / 3;
+        display: flex;
+        background-color: #ffffff;
+        box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4)  ; 
+        -webkit-box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4)  ; 
+        -moz-box-shadow: -1px 21px 20px rgba(0, 0, 0, 0.4);
+        border-radius: 3rem;
+        justify-content: space-between;
+        flex: 1 1 auto;  
+    }
+    
+    
+    /*WORK-CARD-TXT*/
+    .wl-item1 h3, .wl-item2 h3 {
+        font-size: 3.7rem;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+        margin: 0 0;
+    }
+    
+    .wl-item1 p, .wl-item2 p{
+        font-size: 2.4rem;
+        letter-spacing: 0.1rem;
+        
+    }
+    
+    .wl-item1 h6, .wl-item2 h6 {
+        font-size: 1.7rem;
+        font-weight: 300;
+        padding: 0 0;
+        letter-spacing: 0.2rem;
+        margin-top: 0.7rem;
+    }
+    
+    .wli-text .tags b {
+        padding: 0 1rem;
+        font-weight: 500;
+    }
+    
+    
+    
+    
+    
+    /*WORK-CARD-IMG*/
+    .wl-item1 img, .wl-item2 img{
+        border-radius: 3rem 0 0 3rem;
+        align-self: normal;
+        min-width: 22rem;
+        flex: 1 1 auto;
+    }
+    
+    .wli-text {
+        font-family: "IBM Plex Sans", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 20rem;
+        height:auto;
+        padding: 2.5rem 2.8rem;
+        border-radius: 3rem;
+        margin-right: 1rem;
+        flex: 1 1 auto;
+    }
+    
+    
+    
+    
+    
+    
+    .btn{
+        font-family: "Poppins", sans-serif;
+        font-size: 1.8rem;
+        color: #fff;
+        background-color: #5170be;
+        padding: 1.2rem 2rem;
+        border: solid 0.3rem #5170be;
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+        border-radius: 50px;
+        transition : 409ms;
+        transform: translateY(0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;  
+        cursor: pointer;
+        min-width: 65%;
+        justify-content: center;
+        align-self: center;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+        margin-bottom: 1rem;
+        
+    
+    }
+    
+    
+    
+    .btn-ac{
+        font-family: "Poppins", sans-serif;
+        font-size: 1.8rem;
+        color: #fff;
+        background-color: #DA7733;
+        padding: 1.2rem 2rem;
+        border: solid 0.3rem #DA7733;
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+        border-radius: 50px;
+        transition : 409ms;
+        transform: translateY(0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;  
+        cursor: pointer;
+        min-width: 65%;
+        justify-content: center;
+        align-self: center;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+        margin-bottom: 1rem;
+    
+    }
+    
+    
+    .btn:visited{
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .btn-ac:visited{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+    .btn:hover{
+        transition : 409ms;
+        padding: 1.2rem 2rem;
+        text-align: center;    
+        transform : translateY(-0px);
+        background-color: #fff;
+        color: #004f9e;
+        border: solid 0.3rem #0066cc;
+        align-self: center;
+        text-decoration: none;
+    
+    }
+    
+    
+    .btn-ac:hover{
+        transition : 409ms;
+        padding: 1.2rem 2rem;
+        text-align: center;    
+        transform : translateY(-0px);
+        background-color: #fff;
+        color: #DA7733;
+        border: solid 0.3rem #DA7733;
+        align-self: center;
+        text-decoration: none;
+        
+    
+    }
+    
+
+
+
+
+}
+
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media  (min-width: 1920px) {
+}
